@@ -1,0 +1,55 @@
+body{
+	font-family: "黑体",tahoma,verdana,simsun,arial,sans-serif;
+	font-size:14px;
+}
+*{
+	margin: 0;padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #67a2e5;
+}
+a:hover{
+	color: #0670e6;
+}
+input[type='text']{
+	width: 150px;
+	height: 25px;
+	border: 1px solid #dadada;
+	border-radius: 5px;
+}
+table th{
+	background-color: #67a2e5;
+	color: #fff;
+}
+table th,table td{
+	border:1px solid #dadada;
+	padding:10px;
+	text-align: center;
+}
+table{
+	width: 80%;
+	margin: 50px auto;
+	border-collapse:collapse;
+	border:none;
+}
+.information{
+	line-height:2;
+	width: 80%;
+	margin:20px auto 0px;
+	border:1px dashed #dadada;
+	padding:20px;
+}
+.information>div{
+	display: inline-block;
+	margin:0 20px;
+}
+.information button{
+	width: 100px;
+	height: 30px;
+	border: none;
+	background-color: #67a2e5;
+	border:1px solid #dadada;
+	border-radius: 5px;
+	color: #fff;
+}
